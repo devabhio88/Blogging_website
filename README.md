@@ -38,7 +38,7 @@ cd Blogging_website
 
 --- 
 
-###📦 2. Install Dependencies
+**📦 2. Install Dependencies**
 npm install
 
 --- 
