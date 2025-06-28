@@ -31,7 +31,7 @@ Follow these instructions to set up and run the project locally.
 
 ---
 
-### 📁 1. Clone the Repository
+# 📁 1. Clone the Repository
 
 git clone https://github.com/devabhio88/Blogging_website.git
 cd Blogging_website
