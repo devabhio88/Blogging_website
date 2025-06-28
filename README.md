@@ -25,28 +25,6 @@ PeniVerse is a modern, full-featured blogging web application built using **Reac
 
 ---
 
-## 📁 Folder Structure
-
-PeniVerse/
-├── public/
-│ └── favicon.ico
-├── src/
-│ ├── appwrite/ # Appwrite services (auth, db, storage)
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page components (Login, Home, Dashboard)
-│ ├── store/ # Redux slices and store
-│ ├── utils/ # Slug logic, validation helpers
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-├── .env
-├── .gitignore
-├── package.json
-└── vite.config.js
-
-
----
-
 ## 🌐 Environment Setup
 
 Create a `.env` file in the root with your Appwrite credentials:
