@@ -33,9 +33,9 @@ Follow these instructions to set up and run the project locally.
 
 ### 📁 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/devabhio88/Blogging_website.git
 cd Blogging_website
 
-### 📁 1. Clone the Repository
+### 📦 2. Install Dependencies
 npm install
