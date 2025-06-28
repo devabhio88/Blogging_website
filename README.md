@@ -27,9 +27,6 @@ PeniVerse is a modern, full-featured blogging web application built using **Reac
 
 ## 🌐 Environment Setup
 
-## 🛠 Getting Started
-
-Follow these steps to set up the project on your local machine:
 ## 🛠️ Getting Started
 
 Follow these instructions to set up and run the project locally.
@@ -38,14 +35,14 @@ Follow these instructions to set up and run the project locally.
 
 ### 📁 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/devabhio88/Blogging_website.git
 cd Blogging_website
 
-📦 2. Install Dependencies
+###📦 2. Install Dependencies
 npm install
 
-🔐 3. Configure Environment Variables
+###🔐 3. Configure Environment Variables
 Create a .env file in the root directory and add the following:
 
 VITE_APPWRITE_URL=https://cloud.appwrite.io/v1
@@ -59,14 +56,14 @@ Do not commit the .env file — make sure it's in .gitignore.
 
 Create a .env.sample file (with placeholder values) for others to reference.
 
-▶️ 4. Start the Development Server
+###▶️ 4. Start the Development Server
 npm run dev
 Once started, open your browser and go to:
 http://localhost:5173
 
-🏗️ 5. Build for Production
+###🏗️ 5. Build for Production
 npm run build
 The build output will be located in the dist/ folder.
 
-🧪 6. Preview Production Build Locally
+###🧪 6. Preview Production Build Locally
 npm run preview
