@@ -1,24 +1,67 @@
-# React + Vite
+# 🌐 PeniVerse — A Full-Stack Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PeniVerse is a modern, full-featured blogging web application built using **React**, **Vite**, and **Appwrite**. It supports authentication, file uploads, post creation, editing, rich text content, and form validations — all handled with best practices and developer-friendly tooling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+
+- ⚛️ **React** (UI)
+- ⚡ **Vite** (Bundler)
+- ☁️ **Appwrite** (Authentication, Database, File Storage)
+- 🪝 **React Hook Form** (Form state and validation)
+- 📝 **TinyMCE** (Rich Text Editor)
+- 📦 **Redux** (Global state management)
+
+---
+
+## 🔁 Project Flow
+
+1. Appwrite Configuration
+2. Store & Redux Setup
+3. UI Component Creation (focus on design system)
+4. Form Integrations, Authentication, and CRUD
+5. Page Routing and Protection
+
+---
+
+## 📁 Folder Structure
+
+PeniVerse/
+├── public/
+│ └── favicon.ico
+├── src/
+│ ├── appwrite/ # Appwrite services (auth, db, storage)
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components (Login, Home, Dashboard)
+│ ├── store/ # Redux slices and store
+│ ├── utils/ # Slug logic, validation helpers
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── .env
+├── .gitignore
+├── package.json
+└── vite.config.js
 
 
-//Debug
-home(appwrite), auth(new updated createSession syntax), RTE(API key),Submit button(userData is not a key but used in authSlice)
+---
 
-//UI changes
-RTE,favicon
+## 🌐 Environment Setup
 
-// TC before pushing 
-env.sample file,meta tags,vite.config,signup comp,login comp,
+Create a `.env` file in the root with your Appwrite credentials:
 
------------------------------------------------------------
-service - dbservice
-*store - App ->store, authslice, postSlice and storage
-*footer - footer
-*LogoutBtn 
+```env
+VITE_APPWRITE_URL=https://cloud.appwrite.io/v1
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_BUCKET_ID=your_bucket_id
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
