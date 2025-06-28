@@ -27,19 +27,23 @@ PeniVerse is a modern, full-featured blogging web application built using **Reac
 
 ## 🌐 Environment Setup
 
-Create a `.env` file in the root with your Appwrite credentials:
+## 🛠 Getting Started
 
-```env
+Follow these steps to set up the project on your local machine:
+
+### 🔽 1. Clone the Repository
+
+```bash
+git clone https://github.com/devabhio88/Blogging_website.git
+cd Blogging_website
+
+npm install
+
 VITE_APPWRITE_URL=https://cloud.appwrite.io/v1
 VITE_APPWRITE_PROJECT_ID=your_project_id
 VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 
-# Install dependencies
-npm install
-
-# Start development server
 npm run dev
-
-# Build for production
 npm run build
+
