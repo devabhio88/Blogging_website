@@ -1,6 +1,6 @@
 # 🌐 PeniVerse — A Full-Stack Blogging Platform
 
-PeniVerse is a modern, full-featured blogging web application built using **React**, **Vite**, and **Appwrite**. It supports authentication, file uploads, post creation, editing, rich text content, and form validations — all handled with best practices and developer-friendly tooling.
+PeniVerse is a modern, full-featured blogging web application built using **React**, **Vite**, and **Appwrite**. It supports authentication, file uploads, post creation, editing, rich text content, and form validations - all handled with best practices and developer-friendly tooling.
 
 ---
 
